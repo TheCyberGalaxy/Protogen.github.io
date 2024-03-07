@@ -6,41 +6,42 @@
             box-sizing: border-box;
             font-family: Goldman;
         }
-        #particles-js
-        {
+        #particles-js {
+            position: absolute;
             width: 100%;
-            height: 100vh;
-            background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
-            background-position: center;
+            height: 100%;
+            background-color: #7f09ad;
+            background-image: url('https://i.imgur.com/u5WGSbz.jpg');
+            background-repeat: no-repeat;
             background-size: cover;
-            
+            background-position: 50% 50%;
         }
         h1
+        {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            color: rgb(15, 70, 221);
+        }
+        h2
         {
             position: absolute;
             top: 25%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 80px;
-            color: white;
-        }
-        h2
-        {
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             font-size: 60px;
-            color: white;
+            color: rgb(15, 70, 221);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         h3
         {
             position: absolute;
-            top: 55%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 20px;
-            color: white;
+            font-size: 30px;
+            color: rgb(0, 0, 0);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
